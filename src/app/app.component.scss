@@ -1,0 +1,31 @@
+.main-app-layout {
+    display: flex;
+    padding: 30px;
+    max-height: 100vh;
+    height: -webkit-fill-available;
+    background-color: #fafafa;
+
+    .menu-container {
+        background-color: #fff;
+        width: 16rem;
+        max-height: 100vh;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .header-page-footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: -webkit-fill-available;
+        padding-left: 30px;
+
+        .header-container,
+        .footer-container {
+            background-color: #fff;
+            border-radius: 10px;
+            height: 70px;
+        }
+    }
+}
